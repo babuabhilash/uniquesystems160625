@@ -1,0 +1,30 @@
+.cus-background{
+    background-image: url('https://i.pinimg.com/originals/d7/59/b5/d759b559ad669f9e199f1aaaa381a8ab.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+}
+.Profie-name{
+    background-image: url('https://media1.giphy.com/media/l378wcSfS7eXWQgla/200w.webp?cid=ecf05e47263m22igxrub6vpnbi61636t2u9fytr26rgt75yx&rid=200w.webp&ct=g');
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: none;
+    /* font-size: 120px;
+    line-height: .75;
+    margin: 10px 0; */
+
+}
+.nav-link::after{   
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;  
+    transition: 0.5s;  
+}
+.nav-link:hover:after{
+    width: 100%;
+}
+
